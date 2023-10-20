@@ -46,7 +46,7 @@ table {
 }
 
 html{
-    font-family: 'Montserrat', sans-serif;
+    font-family: ${props => props.theme.fontFamily};
 }
 
 `

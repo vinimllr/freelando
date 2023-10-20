@@ -3,7 +3,7 @@ import { ThemeProvider } from "styled-components"
 export const ProvedorTema = ({children}) => {
     const tema ={
         cores: {
-            branco : '',
+            branco : '#fff',
             atencao : '',
             focus : '',
             primarias: {
@@ -17,7 +17,7 @@ export const ProvedorTema = ({children}) => {
                 c: ''
             },
             neutras: {
-                a: '',
+                a: '#373737',
                 b: '',
                 c: '',
                 d: ''
@@ -28,9 +28,13 @@ export const ProvedorTema = ({children}) => {
             }
         },
         espacamentos: {
+            xs: '8px',
             s: '16px',
-            l: '32px'
-        }
+            l: '32px',
+            m: '34px',
+            xxl: '64px'
+        },
+        fontFamily: "'Montserrat', sans-serif"
     }
     return <ThemeProvider theme={tema}>
         {children}
