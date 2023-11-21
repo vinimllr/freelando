@@ -10,7 +10,7 @@ import { IconeWhatsApp } from "../componentes/Icones/IconeWhatsApp";
 import { IconeTwitch } from "../componentes/Icones/IconeTwitch";
 import { IconeInstagram } from "../componentes/Icones/IconeInstagram";
 import { IconeTwitter } from "../componentes/Icones/IconeTwitter";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 
 const LayoutBase = () => {
     return (
