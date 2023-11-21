@@ -101,7 +101,7 @@ export const CadastroUsuarioProvider = ({children}) => {
     }
 
     const submeterUsuario = () => {
-        navigate('/cadastro/concluido')
+        navigate('/concluido')
         console.log(usuario)
     }
 

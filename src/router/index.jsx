@@ -11,35 +11,34 @@ import Concluido from "../paginas/Cadastro/Concluido";
 
   
 const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <LayoutBase/>,
-      children: [
+  {
+    path: "/",
+    element: <LayoutBase />,
+    children: [
         {
-          path: "cadastro",
-          element: <LayoutBaseCadastro/>,
-          children: [
-            {
-              path: '',
-              element: <SelecaoCliente/>
-            },
-            {
-              path: "interesses",
-              element: <Interesses/>
-            },
-            {
-              path: 'dados-pessoais',
-              element: <DadosPessoais/>
-            },
-            {
-              path: 'concluido',
-              element: <Concluido/>
-            }
-          ]
+            path:'',
+            element: <LayoutBaseCadastro />,
+            children: [
+                {
+                    path: 'cadastro',
+                    element: <SelecaoCliente />
+                },
+                {
+                    path: 'interesses',
+                    element: <Interesses />
+                },
+                {
+                    path: 'dados-pessoais',
+                    element: <DadosPessoais />
+                },
+                {
+                    path: 'concluido',
+                    element: <Concluido />
+                }
+            ]
         }
-
-      ]
-    },
-  ]);
+    ],
+},
+]);
 
   export default router;

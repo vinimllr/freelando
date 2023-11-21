@@ -63,7 +63,7 @@ const Interesses = () => {
                     </Link>
                 </Col>
                 <Col lg={6} md={6} sm={6}>
-                    <Link to="/cadastro/dados-pessoais">
+                    <Link to="/dados-pessoais">
                         <div style={{ textAlign: 'right' }}>
                             <Botao>
                                 Próxima

@@ -18,7 +18,7 @@ const SelecaoCliente = () => {
             </Tipografia>
             <Row>
                 <Col md={6} sm={12}>
-                    <RouterLink style={{textDecoration: 'none', color: 'inherit'}} to="interesses" onClick={() => setPerfil('cliente')}>
+                    <RouterLink style={{textDecoration: 'none', color: 'inherit'}} to="/interesses" onClick={() => setPerfil('cliente')}>
                         <img src={cliente} alt="" />
                         <Tipografia variante='body' componente='body'>
                             Sou cliente e preciso de um freela!
